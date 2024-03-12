@@ -40,7 +40,7 @@
     
     <!-- start the page main -->
     <main>
-        <h1>Request a Delivery</h1>
+        <h1>Commission Inquiry</h1>
         
     <!-- Form Information here... -->
         <form method="get" class="myform" action="thanks.html">
@@ -52,34 +52,40 @@
 </fieldset>
 
 <fieldset>
-    <legend>Delivery Method</legend>
-    <label><input type="radio" name="method" value="drone"> Drone Delivery (2hr)</label>
-    <label><input type="radio" name="method" value="motorcycle"> Motorcycle Delivery (4hr)</label>
-    <label><input type="radio" name="method" value="robot"> Robot Delivery (6hr)</label>
+    <legend>Canvas Size  |  All artwork is gallery wrapped</legend>
+    <label><input type="radio" name="method" value="small"> 12 in x 12 in</label>
+    <label><input type="radio" name="method" value="medium"> 24 in x 24 in</label>
+    <label><input type="radio" name="method" value="large"> 24 in x 36 in</label>
+    <label><input type="radio" name="method" value="xlarge"> 36 in x 36 in</label>
+    <label><input type="radio" name="method" value="xxlarge"> 36 in x 48 in</label>
+    <label><input type="radio" name="method" value="xxxl"> 48 in x 48 in</label>
+
+
+
 
 </fieldset>
 
 <fieldset>
-    <legend>Delivery Options</legend>
-    <label><input type="checkbox" name="porch" value="porch"> Front Porch</label>
-    <label><input type="checkbox" name="deck" value="deck"> Back Deck</label>
-    <label><input type="checkbox" name="driveway" value="driveway"> Driveway</label>
-    <label><input type="checkbox" name="garage" value="garage"> Inside The Garage</label>
+    <legend>Color Palette</legend>
+    <label><input type="checkbox" name="cool" value="cool"> Spring tones | Apricot, robin, peach, cream</label>
+    <label><input type="checkbox" name="warm" value="warm"> Winter tones  |  Blue, green, black, turqoise, sage</label>
+    <label><input type="checkbox" name="Autumn" value="Autumn"> Autumn tones  |  Rust, burnt orange, sage, brown, eggshell</label>
+    <label><input type="checkbox" name="summer" value="summer"> Summer tones | Lemon, lime, orange, turquoise</label>
 </fieldset>
 
 <fieldset>
-    <legend>Preferred Delivery Time</legend>
+    <legend>Preferred Completion Time</legend>
    <label><select name="time">
 <option value="none">Please select</option>
-<option value="morning">Between 7:00am and 11:00am></option>
-<option value="noon">Between 11:00am and 2:00pm</option>
-<option value="afternoon">Between 2:00pm and 5:00pm</option>
-<option value="evening">Between 5:00pm and 8:00pm</option>
+<option value="q1">January-March</option>
+<option value="q2">April-June</option>
+<option value="q3">July-September</option>
+<option value="q4">October-December</option>
     </select></label>
 </fieldset>
 <label>Comments: <textarea name="comments">Please add any special instructions</textarea></label>
 
-        <input type="submit" value="Send Delivery Request">
+        <input type="submit" value="Get in touch">
 
         </form>
         

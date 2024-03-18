@@ -145,12 +145,12 @@ main img {
 
 /* form stuff here */
 .myform fieldset{
-    border: 1px solid #43a0b6;
+    border: 1px solid #10302a;
     border-radius: 3px;
     margin-bottom: 1rem;
    }
    .myform legend{
-       color: #43a0b6;
+       color: #10302a;
        font-size: .8rem;
    }
    .myform label{

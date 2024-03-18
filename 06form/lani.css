@@ -69,7 +69,12 @@ main {
 
 main.gallery {
     display: flex; 
-    flex-direction: column;
+    flex-wrap: wrap; 
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 1em;
 }
 
 figure.right {
@@ -151,10 +156,10 @@ main img {
    .myform label{
        margin: .5rem;
    }
-   .myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea{
+   .myform label, .myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea{
        display: block;
    }
-   .myform select, .myform [type=text], .myform [type=tel], .myform textarea{
+   .myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea{
        border: solid 1px #888888;
        padding: .3rem;
        width: 250 px;

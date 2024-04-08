@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="lani.css">
+    
+    <meta charset="UTF-8">
+    <title>Autumn Lani Commissions</title>
+    <link rel="icon" type="image/png" href="images/transparent flower.png">
+
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <img src="images/transparent flower.png" width="75" height="75"/>
+        <img src="images/autumnlaniheader.png" width="400" height="115"/>
+    </header>
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home Page</a>
+            </li>
+            <li>
+                <a href="about.html">About the Artist</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a class="active" href="commissions.html">Commissions</a>
+            </li>
+            <li>
+                <a href="pricing.html">Pricing</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Commission Inquiry</h1>
+        
+    <!-- Form Information here... -->
+        <form method="get" class="myform" action="thanks.html">
+<fieldset>
+    <legend>Customer Information</legend>
+        <label>First Name: <input type="text" name="fname" required></label>
+        <label>Last Name: <input type="text" name="lname" required></label>
+        <label>Phone Number: <input type="tel" name="phone" required></label>
+        <label>Email: <input type="email" name="email" required></label>
+
+
+    </fieldset>
+
+<fieldset>
+    <legend>Canvas Size  |  All artwork is gallery wrapped</legend>
+    <label><input type="radio" name="method" value="small"> 12 in x 12 in</label>
+    <label><input type="radio" name="method" value="medium"> 24 in x 24 in</label>
+    <label><input type="radio" name="method" value="large"> 24 in x 36 in</label>
+    <label><input type="radio" name="method" value="xlarge"> 36 in x 36 in</label>
+    <label><input type="radio" name="method" value="xxlarge"> 36 in x 48 in</label>
+    <label><input type="radio" name="method" value="xxxl"> 48 in x 48 in</label>
+
+
+
+
+</fieldset>
+
+<fieldset>
+    <legend>Color Palette</legend>
+    <label><input type="checkbox" name="cool" value="cool"> Spring tones | Apricot, robin, peach, cream</label>
+    <label><input type="checkbox" name="warm" value="warm"> Winter tones  |  Blue, green, black, turqoise, sage</label>
+    <label><input type="checkbox" name="Autumn" value="Autumn"> Autumn tones  |  Rust, burnt orange, sage, brown, eggshell</label>
+    <label><input type="checkbox" name="summer" value="summer"> Summer tones | Lemon, lime, orange, turquoise</label>
+</fieldset>
+
+<fieldset>
+    <legend>Preferred Completion Time</legend>
+   <label><select name="time">
+<option value="none">Please select</option>
+<option value="q1">January-March</option>
+<option value="q2">April-June</option>
+<option value="q3">July-September</option>
+<option value="q4">October-December</option>
+    </select></label>
+</fieldset>
+<label>Comments: <textarea name="comments">Please add any special instructions</textarea></label>
+
+        <input type="submit" value="Get in touch">
+
+        </form>
+        
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2021 &bull; Autumn Lani &bull; <a href="mailto:zen@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>

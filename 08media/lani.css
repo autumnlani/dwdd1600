@@ -1,0 +1,286 @@
+/*---  This is my css page.  ---*/
+
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  box-sizing: border-box;
+}
+
+/*---  This is where I format the header.  ---*/
+
+header{
+    color: #6b796a;   
+    background-color:#D1e0d6;
+    background-image: linear-gradient(#D1e0d6, white);
+    display: flex;
+    align-items: center;
+    padding: 4em;
+    max-width: 800px;
+    margin: auto;
+}
+
+header div {
+    border: 1px solid #6b796a;
+    border-radius: 5px;
+    max-width: fit-content;
+    padding: 4px;
+}
+
+header img {
+    object-fit: cover;
+}
+
+header p {
+    letter-spacing: .5px;
+}
+h1 {
+    color: #caa98B
+}
+header h1, p {
+    margin: 0;
+    color: #6b796a;
+}
+
+/*---  This is where I format the navigation.  ---*/
+nav {background-color: black;
+    max-width: 800px;
+    margin: auto;
+
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav a:hover{
+    color: #D1e0d6;
+}
+nav a.active {
+    background-color: #D1e0d6;
+    color: black;
+}
+
+img.hero {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Media Queries Small Screen Here */
+@media only screen and (max-width: 600px){
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}
+
+/* Media Queries Large Screen Here */
+@media only screen and (min-width: 601px){
+
+}
+
+/*---  This is where I format the main section.  ---*/
+
+main {
+    padding: 2em;
+    margin: auto;
+    max-width: 800px;
+
+}
+
+main.gallery {
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: none;
+}
+
+main.gallery img:hover {
+    box-shadow: 5px 5px 5px black;
+
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 1em;
+}
+
+figure.right {
+    float: right;
+    width: 30%;
+    height: auto;
+    text-align: right;
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+}
+main h1, main h3 {
+    color:#caa98B;
+}
+
+main h2{
+    color: black;
+}
+
+main p{
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+
+main ol{
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+
+main dl dt{
+    color: #6b796a;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+main dl dd{
+    color: #10302a;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type:square;
+}
+
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .7rem;
+}
+
+main address{
+    font-style: normal;
+    background-color: #D1e0d6;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 2px solid #10302a;
+    border-radius: .8rem;
+
+}
+
+main img {
+    object-fit: cover;
+}
+
+/* Table styles here */
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #caa98B;
+    color: white;
+}
+
+th {
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+}
+
+tbody {
+    color: darkblue;
+}
+
+table, th, td {
+    border: none;
+}
+
+tbody tr:nth-child(even)  {
+    background-color: lightgrey;
+}
+tbody tr:hover {
+    background-color: #D1e0d6;
+}
+
+iframe.youtube {
+    width: 100%;
+}
+
+/* form styles here */
+.myform fieldset{
+    border: 1px solid #10302a;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+   }
+   .myform legend{
+       color: #10302a;
+       font-size: .8rem;
+   }
+   .myform label{
+       margin: .5rem;
+   }
+   .myform label, .myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea{
+       display: block;
+   }
+   .myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea{
+       border: solid 1px #888888;
+       padding: .3rem;
+       width: 250 px;
+       font-family: 'Monserrat Alternates', sans-serif;
+       font-weight: 200;
+   }
+   
+   .myform textarea{
+       height: 6rem;
+   }
+   
+   .myform :required{
+       background-color: rgba(156,51,53,0.1);
+   }
+   
+   .myform [type=submit]{
+       background-color: #43a0b6;
+       border: none;
+       padding: 1rem 2rem;
+       border-radius: 10px;
+       color: white;
+       margin: 1rem 0 0 1vw;
+   }
+   
+
+
+/*---  This is where I format the footer.  ---*/
+
+footer{
+    background-color: #eaeaea;
+    text-align: center;
+    color: #024873;
+    padding: 1rem 0;
+    font-size: .8rem;
+    clear: both;
+    max-width: 800px;
+    margin: auto;
+}
+footer a{
+    color: #024873;
+}

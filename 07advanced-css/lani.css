@@ -133,7 +133,7 @@ main div {
     display: flex;
     flex-direction: row;
 }
-main h1{
+main h1, main h3 {
     color:#caa98B;
 }
 
@@ -187,8 +187,46 @@ main img {
     object-fit: cover;
 }
 
+/* Table styles here */
 
-/* form stuff here */
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #caa98B;
+    color: white;
+}
+
+th {
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+}
+
+tbody {
+    color: darkblue;
+}
+
+table, th, td {
+    border: none;
+}
+
+tbody tr:nth-child(even)  {
+    background-color: lightgrey;
+}
+tbody tr:hover {
+    background-color: #D1e0d6;
+}
+
+iframe.youtube {
+    width: 100%;
+}
+
+/* form styles here */
 .myform fieldset{
     border: 1px solid #10302a;
     border-radius: 3px;
